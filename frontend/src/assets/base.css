@@ -1,0 +1,54 @@
+/* Förenklad färgpalett */
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-primary: #2c3e50; /* Mörk indigo för huvudfärger */
+    --color-text: #333333; /* Neutral textfärg */
+    --color-border: #cccccc; /* Ljusgrå gräns */
+    --color-background: #f9f9f9; /* Ljus bakgrund */
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 1.6rem;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: var(--color-black);
+  }
+  
+  
