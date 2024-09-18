@@ -23,7 +23,7 @@ public class KundServiceTest {
 
         // Act
         kundService.addKund(kund);
-        List<Kund> kunder = kundService.getAllKunder();
+        List<Kund> kunder = kundService.getAllaKunder();
 
         // Assert
         assertEquals(1, kunder.size());  // Kontrollera att en kund har lagts till
@@ -39,7 +39,7 @@ public class KundServiceTest {
         // Act
         kundService.addKund(kund1);
         kundService.addKund(kund2);
-        List<Kund> kunder = kundService.getAllKunder();
+        List<Kund> kunder = kundService.getAllaKunder();
 
         // Assert
         assertEquals(2, kunder.size());  // Kontrollera att två kunder finns
