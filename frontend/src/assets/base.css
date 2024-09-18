@@ -1,11 +1,20 @@
-/* Förenklad färgpalett */
+
 :root {
     --color-white: #ffffff;
     --color-black: #000000;
-    --color-primary: #2c3e50; /* Mörk indigo för huvudfärger */
+    --color-primary: #557391; /* Mörk indigo för huvudfärger */
     --color-text: #333333; /* Neutral textfärg */
     --color-border: #cccccc; /* Ljusgrå gräns */
     --color-background: #f9f9f9; /* Ljus bakgrund */
+
+
+    /*DIGG*/
+    --color-gray1: #F0EFEE;
+    --color-gray2: #D6D9D3;
+    --color-pink1: #F7E4E1
+    --color-pink2: #EBC0B8;
+    --color-pink3: #CD7A6E;
+    --color-brown: #695F59;
   }
 
   html {
@@ -21,6 +30,7 @@
     font-family: Arial, sans-serif;
     line-height: 1.6;
     font-size: 1.6rem;
+    color: #333;
   }
   
   *, *::before, *::after {
@@ -28,7 +38,7 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: var(--color-primary);
+    color: var(--color-text);
     margin-bottom: 1rem;
   }
 
@@ -40,15 +50,4 @@
     margin-bottom: 1rem;
     font-size: 1.4rem;
   }
-  
-  a {
-    color: var(--color-primary);
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  a:hover {
-    color: var(--color-black);
-  }
-  
   
