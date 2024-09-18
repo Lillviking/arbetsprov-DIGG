@@ -1,4 +1,4 @@
-package com.arbetsprov.demo;
+package com.kundhantering;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
