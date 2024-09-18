@@ -49,3 +49,9 @@ docker run -p 8080:8080 arbetsprov-digg
 ### 5.3 Felhantering och loggning
 - **Felhantering**: Applikationen hanterar fel genom att validera inkommande kunddata och kasta undantag om data är ogiltig. Dessa undantag fångas upp och loggas, och felmeddelanden returneras till klienten. Vidare kan en global felhanterare implementeras i framtiden för att centralisera hanteringen av fel i applikationen.
 - **Loggning**: Applikationen använder SLF4J och Logback för loggning. Fel loggas på `error`-nivå när något går fel, och framgångsrika operationer loggas på `info`-nivå.
+
+## Test
+För att köra testerna i backend-projektet, kör följande kommando från katalogen där `build.gradle` finns:
+```bash
+./gradlew test
+```
